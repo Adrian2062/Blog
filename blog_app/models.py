@@ -12,6 +12,8 @@ class Post(models.Model):
     def __str__(self):
         return self.title
 
+# published_at => data xaina => null xa
+# published_at => data xa => null xaina
 
 ## 1 - 1 Relationship
 # 1 user can have only 1 profile   => 1
